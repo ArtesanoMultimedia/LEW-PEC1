@@ -1,0 +1,102 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;	
+}
+.container {
+  width: 90%;
+  max-width: 970px;
+  margin: 50px auto; /*centramos el contenido horitzontalmente*/
+}
+
+/*
+ * Comienzo del código del alumno
+ */
+
+/*
+ * Títulos
+ */
+h1, h2 {
+  color: fuchsia;
+}
+h1 {
+  font-size: 2em;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/*
+ * Líneas horizontales
+ */
+header {
+  border-bottom: 2px solid fuchsia;
+}
+footer {
+  border-top: 2px solid fuchsia;
+}
+
+/*
+ * Encabezado: autor y fecha
+ */
+.autor-fecha {
+  margin-top: 0px;
+}
+.autor-fecha p {
+  color: darkgray;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 5px;
+}
+.autor {
+  font-size: 1.1em;
+}
+.fecha {
+  margin-top: 0px;
+}
+.fecha time {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/*
+ * Cuerpo
+ */
+p {
+  text-align: justify;
+}
+.disclaimer {
+  color: darkgray;
+  font-style: italic;
+}
+code {
+  color: dodgerblue;
+  font-style: italic;
+  font-weight: bold;
+}
+.quote {
+  color: green;
+  font-weight: bold;
+}
+abbr {
+  font-variant: none;
+  text-decoration: none;
+}
+
+/*
+ * Pie
+ */
+q {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*
+ * Compatibilidad con navegadores antiguos
+ */
+section, article, footer, header, time {
+  display: block;
+}
